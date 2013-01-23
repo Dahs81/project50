@@ -1,4 +1,7 @@
+// Date: 01.22.13
+
 // This file is to show examples of using variable length arguments in functions
+// Exercises inspired by Secrets of the Javascript Ninja
 
 var _ = require('underscore');
 
@@ -48,10 +51,6 @@ console.log(testObj2);
 
 var testObj3 = myExtend({name: 'Shad'}, {newAge: 32});
 console.log(testObj3);
-
-
-
-
 
 
 
